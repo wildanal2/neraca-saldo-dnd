@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from "./App";
-import Neracasaldo from "./neracasaldo";
+// import AppBase from "./AppBase"; BASIC
+import App from "./App";
 
-ReactDOM.render(<Neracasaldo />, document.getElementById("root"));
+
+ReactDOM.render(<App />, document.getElementById("root"));
